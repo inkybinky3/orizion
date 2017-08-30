@@ -3,7 +3,7 @@ import os, random, sys
 def give(x):
     for item in WEAPONS.values():
         if item.Name==x:
-            item.inInventory="True"
+            item.Obtained="True"
 
 def invCheck():
     x=1
@@ -127,11 +127,11 @@ WEAPONS = {
             
             "sword2":weapon("Standard Sword", "Sword", "A sword that's so basic, it even tastes like Vanilla. Probably shouldn't lick it though.", "False", "False", 20, 100),
 
-            "sword3":weapon("Long Sword", "Sword", "A long sword. You know you're only weilding it to compensate for something.", "False", "False", 30, 100),
+            "sword3":weapon("Long Sword", "Sword", "A long sword. You know you're only weilding it to compensate for something.", "False", "False", 40, 100),
 
-            "sword4":weapon("Rapier", "Sword", "A slim bladed sword for the nimblest of swordsman. Sadly, it's you wielding it, instead.", "False", "False", 40, 100),           
+            "sword4":weapon("Rapier", "Sword", "A slim bladed sword for the nimblest of swordsman. Sadly, it's you wielding it, instead.", "False", "False", 30, 100),           
             
-            "sword5":weapon("Bastard Sword", "Sword", "A big-ass sword. Its parents never married.","False","False",60,100),
+            "sword5":weapon("Zweihänder", "Sword", "A sword that sounds important because it has a German name.","False","False",60,100),
 
 #AXES-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
@@ -163,9 +163,9 @@ WEAPONS = {
 #SURGERY----------------------------------------------------------------------------------------------------------------------------------------------------------------------------
             "surgery1":weapon("Rusty Scalpel", "Surgical", "Your patients can't die of tetanus if it hasn't been discovered yet!", "False", "False", 20, 70),
     
-            "surgery2":weapon("Bonesaw", "Surgical", "The doctor won't mind you taking this. Because he's dead.", "False", "False", 25, 80),
+            "surgery2":weapon("Bonesaw", "Surgical", "The doctor won't mind you taking this. Partly because he was a nice guy, partly because he's dead.", "False", "False", 25, 80),
     
-            "surgery3":weapon("Übersaw", "Surgical", "Placeholder", "False", "False", 40, 60)
+            "surgery3":weapon("Flaming Steel Rod", "Surgical", "BURN THEM! If their hands bubble and blister, they are a filthy liar!", "False", "False", 40, 60)
             }
 ####################################################################################################################################################################################
 
