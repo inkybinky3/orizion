@@ -28,8 +28,9 @@ def invCheck():
     print("___OPTIONS___")
     print("1> Change Equipped Weapon")
     print("2> Inspect Something")
-    print("3> Save Progress")
-    print("4> Exit")
+    print("3> Achievement")
+    print("4> Save Game")
+    print("5> Exit")
     print("")
     z=input("[1/2/3/4]: ")
     z=str(z)
@@ -53,8 +54,7 @@ def invCheck():
         print("1> Inspect A Weapon")
         print("2> Inspect An Item")
         tempVar=input("[1/2]: ")                    
-        if tempVar=="1":
-            
+        if tempVar=="1":            
             print("")
             print("Enter the name of the weapon you would like to inspect:")
             inspect=input("[Weapon Name]: ")
@@ -96,6 +96,8 @@ def invCheck():
             print("Stopped Inspecting.")
         if success!=1:
             print("That is not a weapon or an item.")
+    elif z=="3":
+        print("Unlocked Achievements: ")
     
 
 ####################################################################################################################################################################################
