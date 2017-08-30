@@ -3,7 +3,7 @@ import os, random, sys
 def give(x):
     for item in WEAPONS.values():
         if item.Name==x:
-            item.inInventory="True"
+            item.Obtained="True"
 
 def invCheck():
     x=1
