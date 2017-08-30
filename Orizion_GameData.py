@@ -3,7 +3,7 @@ import os, random, sys
 def give(x):
     for item in WEAPONS.values():
         if item.Name==x:
-            item.Obtained="True"
+            item.inInventory="True"
 
 def invCheck():
     x=1
@@ -129,13 +129,15 @@ WEAPONS = {
 
             "sword3":weapon("Long Sword", "Sword", "A long sword. You know you're only weilding it to compensate for something.", "False", "False", 30, 100),
 
-            "sword4":weapon("Rapier", "Sword", "A slim bladed sword for the nimblest of swordsman. Sadly, it's you wielding it, instead.", "False", "False", 20, 100),           
+            "sword4":weapon("Rapier", "Sword", "A slim bladed sword for the nimblest of swordsman. Sadly, it's you wielding it, instead.", "False", "False", 40, 100),           
+            
+            "sword5":weapon("Bastard Sword", "Sword", "A big-ass sword. Its parents never married.","False","False",60,100),
 
 #AXES-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
             "axe1":weapon("Steel Axe", "Axe", "A brutal looking axe that has a terrifying edge. You definitely don't want to be hit with this.", "False", "False", 20, 90),
 
-            "axe2":weapon("Handheld Guillotine", "Axe", "Heads will roll... The person who made this must have been slightly insane.", "False", "False", 30, 90),          
+            "axe2":weapon("Handheld Guillotine", "Axe", "Heads will roll... The person who made this must have been slightly insane.", "False", "False", 40, 70),          
 
 #KNIVES-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
@@ -155,8 +157,15 @@ WEAPONS = {
 
             "flail1":weapon("Makeshift Flail", "Flail", "You have a ball. You have a stick. That's everything required to have a good time.", "False", "False", 30, 50),
 
-            "flail2":weapon("Military Flail", "Flail", "Swing drunkenly and pray you'll kill your enemies before you kill yourself. No, it's not just luck!", "False", "False", 50, 50)
+            "flail2":weapon("Military Flail", "Flail", "Swing drunkenly and pray you'll kill your enemies before you kill yourself. No, it's not just luck!", "False", "False", 50, 50),
            
+            "flail3":weapon("Skulls' Bane Ball and Chain", "Flail" "A ball, a chain, and lots of pain. I promise it's not sexual.", "False", "False", 80, 50),
+#SURGERY----------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+            "surgery1":weapon("Rusty Scalpel", "Surgical", "Your patients can't die of tetanus if it hasn't been discovered yet!", "False", "False", 20, 70),
+    
+            "surgery2":weapon("Bonesaw", "Surgical", "The doctor won't mind you taking this. Because he's dead.", "False", "False", 25, 80),
+    
+            "surgery3":weapon("Übersaw", "Surgical", "Placeholder", "False", "False", 40, 60)
             }
 ####################################################################################################################################################################################
 
