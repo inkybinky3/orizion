@@ -28,8 +28,9 @@ def invCheck():
     print("___OPTIONS___")
     print("1> Change Equipped Weapon")
     print("2> Inspect Something")
-    print("3> Save Progress")
-    print("4> Exit")
+    print("3> Achievement")
+    print("4> Save Game")
+    print("5> Exit")
     print("")
     z=input("[1/2/3/4]: ")
     z=str(z)
@@ -53,8 +54,7 @@ def invCheck():
         print("1> Inspect A Weapon")
         print("2> Inspect An Item")
         tempVar=input("[1/2]: ")                    
-        if tempVar=="1":
-            
+        if tempVar=="1":            
             print("")
             print("Enter the name of the weapon you would like to inspect:")
             inspect=input("[Weapon Name]: ")
@@ -96,6 +96,8 @@ def invCheck():
             print("Stopped Inspecting.")
         if success!=1:
             print("That is not a weapon or an item.")
+    elif z=="3":
+        print("Unlocked Achievements: ")
     
 
 ####################################################################################################################################################################################
@@ -127,15 +129,17 @@ WEAPONS = {
             
             "sword2":weapon("Standard Sword", "Sword", "A sword that's so basic, it even tastes like Vanilla. Probably shouldn't lick it though.", "False", "False", 20, 100),
 
-            "sword3":weapon("Long Sword", "Sword", "A long sword. You know you're only weilding it to compensate for something.", "False", "False", 30, 100),
+            "sword3":weapon("Long Sword", "Sword", "A long sword. You know you're only weilding it to compensate for something.", "False", "False", 40, 100),
 
-            "sword4":weapon("Rapier", "Sword", "A slim bladed sword for the nimblest of swordsman. Sadly, it's you wielding it, instead.", "False", "False", 20, 100),           
+            "sword4":weapon("Rapier", "Sword", "A slim bladed sword for the nimblest of swordsman. Sadly, it's you wielding it, instead.", "False", "False", 30, 100),           
+            
+            "sword5":weapon("Zweihänder", "Sword", "A sword that sounds important because it has a German name.","False","False",60,100),
 
 #AXES-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
             "axe1":weapon("Steel Axe", "Axe", "A brutal looking axe that has a terrifying edge. You definitely don't want to be hit with this.", "False", "False", 20, 90),
 
-            "axe2":weapon("Handheld Guillotine", "Axe", "Heads will roll... The person who made this must have been slightly insane.", "False", "False", 30, 90),          
+            "axe2":weapon("Handheld Guillotine", "Axe", "Heads will roll... The person who made this must have been slightly insane.", "False", "False", 40, 70),          
 
 #KNIVES-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
@@ -155,8 +159,15 @@ WEAPONS = {
 
             "flail1":weapon("Makeshift Flail", "Flail", "You have a ball. You have a stick. That's everything required to have a good time.", "False", "False", 30, 50),
 
-            "flail2":weapon("Military Flail", "Flail", "Swing drunkenly and pray you'll kill your enemies before you kill yourself. No, it's not just luck!", "False", "False", 50, 50)
+            "flail2":weapon("Military Flail", "Flail", "Swing drunkenly and pray you'll kill your enemies before you kill yourself. No, it's not just luck!", "False", "False", 50, 50),
            
+            "flail3":weapon("Skulls' Bane Ball and Chain", "Flail" "A ball, a chain, and lots of pain. I promise it's not sexual.", "False", "False", 80, 50),
+#SURGERY----------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+            "surgery1":weapon("Rusty Scalpel", "Surgical", "Your patients can't die of tetanus if it hasn't been discovered yet!", "False", "False", 20, 70),
+    
+            "surgery2":weapon("Bonesaw", "Surgical", "The doctor won't mind you taking this. Partly because he was a nice guy, partly because he's dead.", "False", "False", 25, 80),
+    
+            "surgery3":weapon("Flaming Steel Rod", "Surgical", "BURN THEM! If their hands bubble and blister, they are a filthy liar!", "False", "False", 40, 60)
             }
 ####################################################################################################################################################################################
 
