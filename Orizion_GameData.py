@@ -139,7 +139,7 @@ WEAPONS = {
 
             "axe1":weapon("Steel Axe", "Axe", "A brutal looking axe that has a terrifying edge. You definitely don't want to be hit with this.", "False", "False", 20, 90),
 
-            "axe2":weapon("Handheld Guillotine", "Axe", "Heads will roll... The person who made this must have been slightly insane.", "False", "False", 40, 70),          
+            "axe2":weapon("Handheld Guillotine", "Axe", "Heads will roll... The person who made this must have been slightly insane.", "False", "False", 40, 70),    
 
 #KNIVES-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
@@ -151,6 +151,13 @@ WEAPONS = {
 
             "scythe1":weapon("Spooky Scythe", "Scythe", "A scythe with a shiny blade. It's looks quite rare. Perhaps you can pretend you're the Grim Reaper.", "False", "False", 40, 100),
 
+            "scythe2":weapon("Soul-Harvester's Scythe", "Scythe", "A scythe that makes you feel uneasy. Ignore all the stares, they're clearly jealous.", "False", "False", 50, 80),
+    
+            "scythe3":weapon("Farmer's Scythe", "Scythe", "A tool with a curved blade for cutting grass, or in this case, necks.", "False", "False", 25, 85),
+    
+            "scythe4":weapon("Reinforced Scythe", "Scythe", "'It's not a weapon', they said. 'The farmer needs it back', They told you.", "False", "False", 30, 85),
+    
+            "scythe5":weapon("War Scythe", "Scythe", "A repurposed farming tool, from a peasant ready to rise up against the upper class! Or at least, he was.", "False", "False", 40, 70),
 #BOWS-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
             "bow1":weapon("Wooden Bow", "Bow", "A basic looking bow with a simplistic design. KITTY knows why it has infinite arrows...", "False", "False", 20, 80),
@@ -167,7 +174,15 @@ WEAPONS = {
     
             "surgery2":weapon("Bonesaw", "Surgical", "The doctor won't mind you taking this. Partly because he was a nice guy, partly because he's dead.", "False", "False", 25, 80),
     
-            "surgery3":weapon("Flaming Steel Rod", "Surgical", "BURN THEM! If their hands bubble and blister, they are a filthy liar!", "False", "False", 40, 60)
+            "surgery3":weapon("Flaming Steel Rod", "Surgical", "BURN THEM! If their hands bubble and blister, they are a filthy liar!", "False", "False", 40, 60),
+    
+#WARHAMMERS--------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+            "warhammer1":weapon("Merciless Mallet", "Warhammer", "There is no greater joy than causing blunt trauma with a wooden hammer on a pole!", "False", "False", 15, 95),
+    
+            "warhammer2":weapon("War Hammer", "Warhammer", "Play Whack-A-Mole with those that oppose you! Concussions galore!", "False", "False", 30, 70),
+            
+            "warhammer3":weapon("The Maul", "Warhammer", "Give your opponents the worst migraine of their lives! Put them out of their misery shortly after!", "False", "False", 40, 80)
+            
             }
 ####################################################################################################################################################################################
 
