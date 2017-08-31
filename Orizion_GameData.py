@@ -40,11 +40,11 @@ def invCheck():
         changeTo=input("[Weapon Name]: ")
         for item in WEAPONS.values():
             if item.Name==changeTo:
+                success=1
                 if item.Obtained=="True":
                     currentWeapon.Equipped="False"
                     item.Equipped="True"
                     print("Changed Weapon Successfully!")
-                    success=1
                 else:
                     print("You do not have that weapon.")
         if success!=1:
