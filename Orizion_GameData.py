@@ -146,6 +146,8 @@ WEAPONS = {
             "knife1":weapon("Butter Knife", "Knife", "A basic butter knife. At least it's stainless, so the blood slides off.", "True", "False", 5, 100),
 
             "knife2":weapon("Dagger Knife", "Knife", "A sharp knife with black tape around the handle. You mess with crabo, you get a stabo!", "False", "False", 15, 100),
+    
+            "knife3":weapon("Meat Cleaver", "Knife", "Hack and slash.", "False", "False", 30, 80),
 
 #SCYTHES----------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
@@ -161,6 +163,8 @@ WEAPONS = {
 #BOWS-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
             "bow1":weapon("Wooden Bow", "Bow", "A basic looking bow with a simplistic design. KITTY knows why it has infinite arrows...", "False", "False", 20, 80),
+            
+            "bow2":weapon("Longbow", "Bow", "A deadly bow for the skilled marksman. Thief.", "False", "False", 35, 90),
 
 #FLAILS-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
@@ -168,7 +172,7 @@ WEAPONS = {
 
             "flail2":weapon("Military Flail", "Flail", "Swing drunkenly and pray you'll kill your enemies before you kill yourself. No, it's not just luck!", "False", "False", 50, 50),
            
-            "flail3":weapon("Skulls' Bane Ball and Chain", "Flail" "A ball, a chain, and lots of pain. I promise it's not sexual.", "False", "False", 80, 50),
+            "flail3":weapon("Skulls Bane Ball and Chain", "Flail" "A ball, a chain, and lots of pain. I promise it's not sexual.", "False", "False", 80, 50),
 #SURGERY----------------------------------------------------------------------------------------------------------------------------------------------------------------------------
             "surgery1":weapon("Rusty Scalpel", "Surgical", "Your patients can't die of tetanus if it hasn't been discovered yet!", "False", "False", 20, 70),
     
@@ -183,6 +187,7 @@ WEAPONS = {
             
             "warhammer3":weapon("The Maul", "Warhammer", "Give your opponents the worst migraine of their lives! Put them out of their misery shortly after!", "False", "False", 40, 80)
             
+            "warhammer4":weapon("Ban Hammer", "Warhammer", "Thank you for playing Orizion. Goodbye!", "False", "False", 100, 48)
             }
 ####################################################################################################################################################################################
 
